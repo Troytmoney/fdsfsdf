@@ -1,0 +1,195 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_m593D2A3F8244A1C303CB2F05936EEF0904A682C6 (void);
+extern void IsUnmanagedAttribute__ctor_m846CC8F7F7D7006C2FD168817BEA224C8224EA60 (void);
+extern void RuntimeUtils_NoEffectWarning_m7E76199E63182167BE3590FECD069911EC5CAF27 (void);
+extern void ContinuousExponentialMovingAverage_GetDecayConstantForHalfLife_mDF20D5691EA3773036C6F45D055A274F827FCA84 (void);
+extern void ContinuousExponentialMovingAverage__cctor_m5275465F2B35EDDEEF5D4A9A18A9F28DD56E8605 (void);
+extern void LogNormalRandomWalk_get_Rate_m06769CA72CE26DEBD987D4946D743C4F5D9B970D (void);
+extern void LogNormalRandomWalk_get_Min_mB369306E596A772980628AEE9EFEFAACBDD1BAB4 (void);
+extern void LogNormalRandomWalk_get_Max_mA16005B6798F202EBEB1974740DEE10CC9AD6655 (void);
+extern void LogNormalRandomWalk_get_Value_mC49E846076079713E6A23831EF72FF298E028B43 (void);
+extern void LogNormalRandomWalk_set_Value_mADA28565D153937601448EB256B22C5B65B070FF (void);
+extern void LogNormalRandomWalk_NextFloat_m067F985B00B543FF5AC9FC6DF10F16BE9AB3B01C (void);
+extern void LogNormalRandomWalk__ctor_m8628181782C0762978BD4365314C1F4C3CAAB76B (void);
+extern void StringUtil_AddSpacesToCamelCase_m742A53A381950EA91690338470A362468EDB35BF (void);
+extern void U3CU3Ec__cctor_m7666DAC2F5BCF598E424DE05E659351EEFE3F958 (void);
+extern void U3CU3Ec__ctor_mCA4AEC9BDB21BEF8187788EA50900C488F9FF92E (void);
+extern void U3CU3Ec_U3CAddSpacesToCamelCaseU3Eb__0_0_m4758587B0A5D453EE7333E4B3FE030A459677261 (void);
+extern void TaskExtensions_Forget_m7C2CBA88B4F412FC08B5B697297AA2CBFF862FD0 (void);
+extern void TaskExtensions_U3CForgetU3Eg__ForgetAwaitedU7C0_0_mDFAEC1E21E2DA200C49C024CA3AF3CE084527946 (void);
+extern void U3CU3CForgetU3Eg__ForgetAwaitedU7C0_0U3Ed_MoveNext_m4F7099EF709B99AFD39C8617207ECEB6B34CFF84 (void);
+extern void U3CU3CForgetU3Eg__ForgetAwaitedU7C0_0U3Ed_SetStateMachine_m31F0946D787E52DDDF0258EC1EC3C26BE90E5E7D (void);
+static Il2CppMethodPointer s_methodPointers[28] = 
+{
+	EmbeddedAttribute__ctor_m593D2A3F8244A1C303CB2F05936EEF0904A682C6,
+	IsUnmanagedAttribute__ctor_m846CC8F7F7D7006C2FD168817BEA224C8224EA60,
+	RuntimeUtils_NoEffectWarning_m7E76199E63182167BE3590FECD069911EC5CAF27,
+	NULL,
+	ContinuousExponentialMovingAverage_GetDecayConstantForHalfLife_mDF20D5691EA3773036C6F45D055A274F827FCA84,
+	ContinuousExponentialMovingAverage__cctor_m5275465F2B35EDDEEF5D4A9A18A9F28DD56E8605,
+	LogNormalRandomWalk_get_Rate_m06769CA72CE26DEBD987D4946D743C4F5D9B970D,
+	LogNormalRandomWalk_get_Min_mB369306E596A772980628AEE9EFEFAACBDD1BAB4,
+	LogNormalRandomWalk_get_Max_mA16005B6798F202EBEB1974740DEE10CC9AD6655,
+	LogNormalRandomWalk_get_Value_mC49E846076079713E6A23831EF72FF298E028B43,
+	LogNormalRandomWalk_set_Value_mADA28565D153937601448EB256B22C5B65B070FF,
+	LogNormalRandomWalk_NextFloat_m067F985B00B543FF5AC9FC6DF10F16BE9AB3B01C,
+	LogNormalRandomWalk__ctor_m8628181782C0762978BD4365314C1F4C3CAAB76B,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	StringUtil_AddSpacesToCamelCase_m742A53A381950EA91690338470A362468EDB35BF,
+	U3CU3Ec__cctor_m7666DAC2F5BCF598E424DE05E659351EEFE3F958,
+	U3CU3Ec__ctor_mCA4AEC9BDB21BEF8187788EA50900C488F9FF92E,
+	U3CU3Ec_U3CAddSpacesToCamelCaseU3Eb__0_0_m4758587B0A5D453EE7333E4B3FE030A459677261,
+	TaskExtensions_Forget_m7C2CBA88B4F412FC08B5B697297AA2CBFF862FD0,
+	TaskExtensions_U3CForgetU3Eg__ForgetAwaitedU7C0_0_mDFAEC1E21E2DA200C49C024CA3AF3CE084527946,
+	U3CU3CForgetU3Eg__ForgetAwaitedU7C0_0U3Ed_MoveNext_m4F7099EF709B99AFD39C8617207ECEB6B34CFF84,
+	U3CU3CForgetU3Eg__ForgetAwaitedU7C0_0U3Ed_SetStateMachine_m31F0946D787E52DDDF0258EC1EC3C26BE90E5E7D,
+};
+extern void U3CU3CForgetU3Eg__ForgetAwaitedU7C0_0U3Ed_MoveNext_m4F7099EF709B99AFD39C8617207ECEB6B34CFF84_AdjustorThunk (void);
+extern void U3CU3CForgetU3Eg__ForgetAwaitedU7C0_0U3Ed_SetStateMachine_m31F0946D787E52DDDF0258EC1EC3C26BE90E5E7D_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
+{
+	{ 0x0600001B, U3CU3CForgetU3Eg__ForgetAwaitedU7C0_0U3Ed_MoveNext_m4F7099EF709B99AFD39C8617207ECEB6B34CFF84_AdjustorThunk },
+	{ 0x0600001C, U3CU3CForgetU3Eg__ForgetAwaitedU7C0_0U3Ed_SetStateMachine_m31F0946D787E52DDDF0258EC1EC3C26BE90E5E7D_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[28] = 
+{
+	10572,
+	10572,
+	14813,
+	0,
+	15235,
+	16050,
+	10478,
+	10478,
+	10478,
+	10478,
+	8456,
+	7513,
+	10572,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	15455,
+	16050,
+	10572,
+	7381,
+	15776,
+	14199,
+	10572,
+	8373,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[7] = 
+{
+	{ 0x02000008, { 5, 7 } },
+	{ 0x02000009, { 12, 2 } },
+	{ 0x06000004, { 0, 1 } },
+	{ 0x0600000E, { 1, 2 } },
+	{ 0x0600000F, { 3, 2 } },
+	{ 0x06000013, { 14, 7 } },
+	{ 0x06000014, { 21, 8 } },
+};
+extern const uint32_t g_rgctx_T_t184CC1408CB9B7699E3357B033A5739B5E275EC1;
+extern const uint32_t g_rgctx_T_t233664FE07CEE35E4DB165EB18DA64A41A6C3066;
+extern const uint32_t g_rgctx_TU5BU5D_t1376157D7FE759959C8DF1647F45796119B2EBDD;
+extern const uint32_t g_rgctx_TEnum_t38147A2A461D2FECFCAAAE6EB537DF48C649C4B9;
+extern const uint32_t g_rgctx_TUnderlying_t696AE15FEA6BFA2FF91198313823628C4E071A3B;
+extern const uint32_t g_rgctx_TEnum_t96B812539E3D9989EB926CFB94447B7140E8F203;
+extern const uint32_t g_rgctx_TUnderlying_t896AD3B7CF608F3FAC2A0CF9381BC4FDCFFBC0ED;
+extern const uint32_t g_rgctx_UnhandledEnumUnderlyingTypeException_2_t4FBAA732D399A892AE185457AE3DC4137E950488;
+extern const uint32_t g_rgctx_UnhandledEnumUnderlyingTypeException_2__ctor_m6E9F4457784A6F7DA72CB1BE8B55FFF1AD6B5B52;
+extern const uint32_t g_rgctx_TEnum_t96B812539E3D9989EB926CFB94447B7140E8F203;
+extern const uint32_t g_rgctx_EnumUtil_UnsafeCastToUnderlying_TisTEnum_t96B812539E3D9989EB926CFB94447B7140E8F203_TisTUnderlying_t896AD3B7CF608F3FAC2A0CF9381BC4FDCFFBC0ED_m60087C26C4F4B84FFDE82DC4313CCAA2769156A3;
+extern const uint32_t g_rgctx_TUnderlying_t896AD3B7CF608F3FAC2A0CF9381BC4FDCFFBC0ED;
+extern const uint32_t g_rgctx_TEnum_tD811718D23A8663B24A8C986A69C977122809852;
+extern const uint32_t g_rgctx_TRequiredUnderlyingType_tC9A91D6502E0A03ED608695A75F84CE6951E701A;
+extern const uint32_t g_rgctx_List_1_t2759C6524C5D43D760C33EB094B1760B3674AB42;
+extern const uint32_t g_rgctx_List_1_get_Count_m3E46C7FFA712DAFDF1E17FB75E35FD7F70C803B2;
+extern const uint32_t g_rgctx_List_1_RemoveRange_mA5A55BAA87F068F5DDE4D49651B8E12F06B3415E;
+extern const uint32_t g_rgctx_List_1_get_Capacity_mF994CF2E2AA463ECCD126BFC711BD619D04A89E1;
+extern const uint32_t g_rgctx_List_1_set_Capacity_mAEF988E9131D00DF1D2655FE9BABA3219B0C92B1;
+extern const uint32_t g_rgctx_T_tB950B20F6DFB1B9934DBAC3693B7177B4E7BA34B;
+extern const uint32_t g_rgctx_List_1_Add_mDCA12F60285166413B0EF704FE0B6D1F217EDE13;
+extern const uint32_t g_rgctx_IReadOnlyList_1_t5384893E7C8E6A4D742784D1C1A0E9B1AEF0EE70;
+extern const uint32_t g_rgctx_IEnumerable_1_t75A1ABB71644686691D64F10AF9B6B8F4FE299F3;
+extern const uint32_t g_rgctx_IEnumerable_1_GetEnumerator_m082883E168395633DF4B32246140818A1A807F55;
+extern const uint32_t g_rgctx_IEnumerator_1_t28DABCB64797DF12D50090D9F14FC15B336A9FE5;
+extern const uint32_t g_rgctx_IEnumerator_1_get_Current_mB267A45C40D700E590F4BEE710677209C6A26795;
+extern const uint32_t g_rgctx_T_t7629D7A75F3843929BBDA54C712236F1E778D0AD;
+extern const uint32_t g_rgctx_IEquatable_1_tA30C94E81ABE2F630413129D0987D10ED8D9F519;
+extern const Il2CppRGCTXConstrainedData g_rgctx_T_t7629D7A75F3843929BBDA54C712236F1E778D0AD_IEquatable_1_Equals_m87B600EB71CC1C3607084EBB2D83CB70ADEA31CB;
+static const Il2CppRGCTXDefinition s_rgctxValues[29] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t184CC1408CB9B7699E3357B033A5739B5E275EC1 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t233664FE07CEE35E4DB165EB18DA64A41A6C3066 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t1376157D7FE759959C8DF1647F45796119B2EBDD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TEnum_t38147A2A461D2FECFCAAAE6EB537DF48C649C4B9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUnderlying_t696AE15FEA6BFA2FF91198313823628C4E071A3B },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TEnum_t96B812539E3D9989EB926CFB94447B7140E8F203 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TUnderlying_t896AD3B7CF608F3FAC2A0CF9381BC4FDCFFBC0ED },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UnhandledEnumUnderlyingTypeException_2_t4FBAA732D399A892AE185457AE3DC4137E950488 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UnhandledEnumUnderlyingTypeException_2__ctor_m6E9F4457784A6F7DA72CB1BE8B55FFF1AD6B5B52 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TEnum_t96B812539E3D9989EB926CFB94447B7140E8F203 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EnumUtil_UnsafeCastToUnderlying_TisTEnum_t96B812539E3D9989EB926CFB94447B7140E8F203_TisTUnderlying_t896AD3B7CF608F3FAC2A0CF9381BC4FDCFFBC0ED_m60087C26C4F4B84FFDE82DC4313CCAA2769156A3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUnderlying_t896AD3B7CF608F3FAC2A0CF9381BC4FDCFFBC0ED },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TEnum_tD811718D23A8663B24A8C986A69C977122809852 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TRequiredUnderlyingType_tC9A91D6502E0A03ED608695A75F84CE6951E701A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t2759C6524C5D43D760C33EB094B1760B3674AB42 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_m3E46C7FFA712DAFDF1E17FB75E35FD7F70C803B2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_RemoveRange_mA5A55BAA87F068F5DDE4D49651B8E12F06B3415E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Capacity_mF994CF2E2AA463ECCD126BFC711BD619D04A89E1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_set_Capacity_mAEF988E9131D00DF1D2655FE9BABA3219B0C92B1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tB950B20F6DFB1B9934DBAC3693B7177B4E7BA34B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Add_mDCA12F60285166413B0EF704FE0B6D1F217EDE13 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IReadOnlyList_1_t5384893E7C8E6A4D742784D1C1A0E9B1AEF0EE70 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerable_1_t75A1ABB71644686691D64F10AF9B6B8F4FE299F3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerable_1_GetEnumerator_m082883E168395633DF4B32246140818A1A807F55 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerator_1_t28DABCB64797DF12D50090D9F14FC15B336A9FE5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerator_1_get_Current_mB267A45C40D700E590F4BEE710677209C6A26795 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t7629D7A75F3843929BBDA54C712236F1E778D0AD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEquatable_1_tA30C94E81ABE2F630413129D0987D10ED8D9F519 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t7629D7A75F3843929BBDA54C712236F1E778D0AD_IEquatable_1_Equals_m87B600EB71CC1C3607084EBB2D83CB70ADEA31CB },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Multiplayer_Tools_Common_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Multiplayer_Tools_Common_CodeGenModule = 
+{
+	"Unity.Multiplayer.Tools.Common.dll",
+	28,
+	s_methodPointers,
+	2,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	7,
+	s_rgctxIndices,
+	29,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -1,0 +1,107 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m3E07300EC1737117058741C001F8E2D30C79A2FC (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m400F2DAF43A002DEABDEA94C241BB0160EC34A8B (void);
+extern void DynamicNavPath__ctor_m11826DE152C9352614132A347A1F2FF557C143F2 (void);
+extern void DynamicNavPath_get_TargetPosition_m0D9255F02DB980D45598D1D83715633AFBD7C16D (void);
+extern void DynamicNavPath_FollowTransform_mE3FF55E331F38BD529431FA6B4CFB8DE09C32D9C (void);
+extern void DynamicNavPath_SetTargetPosition_m3131B13B58D644283206074E059DBFF9F742BE69 (void);
+extern void DynamicNavPath_OnNavMeshChanged_m0B5015F1F1C5D559E4A90471967FFE02F1155B98 (void);
+extern void DynamicNavPath_Clear_mBF4D13F87C8363757A5B0FD7BFE0B605B21B2D66 (void);
+extern void DynamicNavPath_MoveAlongPath_m1F165B78981BF50BFCF5C2849034174CAAF36519 (void);
+extern void DynamicNavPath_OnTargetPositionChanged_m4AB786018A0927411B6F86D2FB93E9DF3252E0E7 (void);
+extern void DynamicNavPath_RecalculatePath_mF322CCE28EA4CCBBEC2818CDAFE887584CF41617 (void);
+extern void DynamicNavPath_Dispose_m491262A6FC2C74ADB5B75CE3E8B9374C362D6D66 (void);
+extern void NavigationSystem_add_OnNavigationMeshChanged_m1699970827DA9344AD6EB303E990649AF8737796 (void);
+extern void NavigationSystem_remove_OnNavigationMeshChanged_m39FD2B1FAB5D39C6FFF2218EE253CC65F0170E95 (void);
+extern void NavigationSystem_OnDynamicObstacleDisabled_m0C0EBEB416514851641352EC92E8A930A2D98D2D (void);
+extern void NavigationSystem_OnDynamicObstacleEnabled_mE45C51F3CCBC6A3CFE89E997095307A369803468 (void);
+extern void NavigationSystem_FixedUpdate_mBFD14EAB001844649F8ED6B705E85AB74CB7FA6E (void);
+extern void NavigationSystem_OnValidate_m85BCAE53AEC8A9825F191C69625EBBD22F68D775 (void);
+extern void NavigationSystem__ctor_m77ACDD4EFD7C2659CA787234B3DBED56D2BF7E09 (void);
+extern void U3CU3Ec__cctor_m1BA0D1C214EF9C62BE1352CD59E576891B5B2594 (void);
+extern void U3CU3Ec__ctor_m76D118D9D4ED85047B24CF22A62F470AEC263D63 (void);
+extern void U3CU3Ec_U3C_ctorU3Eb__9_0_m3BB7F5B7A43A95F7EA0B6A763DEE0B9C95AD3906 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m3E07300EC1737117058741C001F8E2D30C79A2FC,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m400F2DAF43A002DEABDEA94C241BB0160EC34A8B,
+	DynamicNavPath__ctor_m11826DE152C9352614132A347A1F2FF557C143F2,
+	DynamicNavPath_get_TargetPosition_m0D9255F02DB980D45598D1D83715633AFBD7C16D,
+	DynamicNavPath_FollowTransform_mE3FF55E331F38BD529431FA6B4CFB8DE09C32D9C,
+	DynamicNavPath_SetTargetPosition_m3131B13B58D644283206074E059DBFF9F742BE69,
+	DynamicNavPath_OnNavMeshChanged_m0B5015F1F1C5D559E4A90471967FFE02F1155B98,
+	DynamicNavPath_Clear_mBF4D13F87C8363757A5B0FD7BFE0B605B21B2D66,
+	DynamicNavPath_MoveAlongPath_m1F165B78981BF50BFCF5C2849034174CAAF36519,
+	DynamicNavPath_OnTargetPositionChanged_m4AB786018A0927411B6F86D2FB93E9DF3252E0E7,
+	DynamicNavPath_RecalculatePath_mF322CCE28EA4CCBBEC2818CDAFE887584CF41617,
+	DynamicNavPath_Dispose_m491262A6FC2C74ADB5B75CE3E8B9374C362D6D66,
+	NavigationSystem_add_OnNavigationMeshChanged_m1699970827DA9344AD6EB303E990649AF8737796,
+	NavigationSystem_remove_OnNavigationMeshChanged_m39FD2B1FAB5D39C6FFF2218EE253CC65F0170E95,
+	NavigationSystem_OnDynamicObstacleDisabled_m0C0EBEB416514851641352EC92E8A930A2D98D2D,
+	NavigationSystem_OnDynamicObstacleEnabled_mE45C51F3CCBC6A3CFE89E997095307A369803468,
+	NavigationSystem_FixedUpdate_mBFD14EAB001844649F8ED6B705E85AB74CB7FA6E,
+	NavigationSystem_OnValidate_m85BCAE53AEC8A9825F191C69625EBBD22F68D775,
+	NavigationSystem__ctor_m77ACDD4EFD7C2659CA787234B3DBED56D2BF7E09,
+	U3CU3Ec__cctor_m1BA0D1C214EF9C62BE1352CD59E576891B5B2594,
+	U3CU3Ec__ctor_m76D118D9D4ED85047B24CF22A62F470AEC263D63,
+	U3CU3Ec_U3C_ctorU3Eb__9_0_m3BB7F5B7A43A95F7EA0B6A763DEE0B9C95AD3906,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	16083,
+	10572,
+	4620,
+	10561,
+	8373,
+	8540,
+	10572,
+	10572,
+	7647,
+	8540,
+	10572,
+	10572,
+	8373,
+	8373,
+	10572,
+	10572,
+	10572,
+	10572,
+	10572,
+	16050,
+	10572,
+	10572,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_BossRoom_Navigation_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_BossRoom_Navigation_CodeGenModule = 
+{
+	"Unity.BossRoom.Navigation.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

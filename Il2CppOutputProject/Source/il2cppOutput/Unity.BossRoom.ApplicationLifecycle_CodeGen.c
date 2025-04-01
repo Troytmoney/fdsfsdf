@@ -1,0 +1,89 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m0755AA3F0B1F9AA5E5C63CD678C3100EF980B865 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m47624585EF71015021F36FB857BE671EBFC30209 (void);
+extern void ApplicationController_Configure_mFA71C8C7539DF2F1C5E86BD4BB28DD4D2A27E35D (void);
+extern void ApplicationController_Start_mDB4CF0D2F0F85E9AAB9F7C43BABE6FD4F54862BE (void);
+extern void ApplicationController_OnDestroy_m3D959B2C2428D244DC1E8DAAF6E0D66DDF695060 (void);
+extern void ApplicationController_LeaveBeforeQuit_m6E87853C353E0C562A55A9E04EC85B3E5AC14D59 (void);
+extern void ApplicationController_OnWantToQuit_m35CE725660A0DDC2E5AF11B67C7959B3363A73EA (void);
+extern void ApplicationController_QuitGame_m2B9567AD4426BC7C5ECC22115962BE4767016993 (void);
+extern void ApplicationController__ctor_mDA9CCC344148CC0E418221FFBD728EFD68D7FC35 (void);
+extern void U3CLeaveBeforeQuitU3Ed__9__ctor_mEB50E747B3042B1BE308FC292147A2544234901B (void);
+extern void U3CLeaveBeforeQuitU3Ed__9_System_IDisposable_Dispose_mCF5FB160AE517E86DB3A68B196623D45D7322361 (void);
+extern void U3CLeaveBeforeQuitU3Ed__9_MoveNext_m58B390373E91A5F24542C0E1CB49B98E39EB188E (void);
+extern void U3CLeaveBeforeQuitU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m21777367F7ED5B152005C93283BD763800806FFF (void);
+extern void U3CLeaveBeforeQuitU3Ed__9_System_Collections_IEnumerator_Reset_mA161E13A6DF8E19CEA92DF2E2B6CD2210FFFBADE (void);
+extern void U3CLeaveBeforeQuitU3Ed__9_System_Collections_IEnumerator_get_Current_m86E07F91A3BFC7B0288271DED7D6E0AC635E9A0D (void);
+extern void NetworkVariableSerializationHelper_InitializeSerialization_m336CFC70E8B498F8C9EDEC80BB54DD2B91DB3418 (void);
+static Il2CppMethodPointer s_methodPointers[16] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m0755AA3F0B1F9AA5E5C63CD678C3100EF980B865,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m47624585EF71015021F36FB857BE671EBFC30209,
+	ApplicationController_Configure_mFA71C8C7539DF2F1C5E86BD4BB28DD4D2A27E35D,
+	ApplicationController_Start_mDB4CF0D2F0F85E9AAB9F7C43BABE6FD4F54862BE,
+	ApplicationController_OnDestroy_m3D959B2C2428D244DC1E8DAAF6E0D66DDF695060,
+	ApplicationController_LeaveBeforeQuit_m6E87853C353E0C562A55A9E04EC85B3E5AC14D59,
+	ApplicationController_OnWantToQuit_m35CE725660A0DDC2E5AF11B67C7959B3363A73EA,
+	ApplicationController_QuitGame_m2B9567AD4426BC7C5ECC22115962BE4767016993,
+	ApplicationController__ctor_mDA9CCC344148CC0E418221FFBD728EFD68D7FC35,
+	U3CLeaveBeforeQuitU3Ed__9__ctor_mEB50E747B3042B1BE308FC292147A2544234901B,
+	U3CLeaveBeforeQuitU3Ed__9_System_IDisposable_Dispose_mCF5FB160AE517E86DB3A68B196623D45D7322361,
+	U3CLeaveBeforeQuitU3Ed__9_MoveNext_m58B390373E91A5F24542C0E1CB49B98E39EB188E,
+	U3CLeaveBeforeQuitU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m21777367F7ED5B152005C93283BD763800806FFF,
+	U3CLeaveBeforeQuitU3Ed__9_System_Collections_IEnumerator_Reset_mA161E13A6DF8E19CEA92DF2E2B6CD2210FFFBADE,
+	U3CLeaveBeforeQuitU3Ed__9_System_Collections_IEnumerator_get_Current_m86E07F91A3BFC7B0288271DED7D6E0AC635E9A0D,
+	NetworkVariableSerializationHelper_InitializeSerialization_m336CFC70E8B498F8C9EDEC80BB54DD2B91DB3418,
+};
+static const int32_t s_InvokerIndices[16] = 
+{
+	16075,
+	10572,
+	8373,
+	10572,
+	10572,
+	10397,
+	10247,
+	8400,
+	10572,
+	8316,
+	10572,
+	10247,
+	10397,
+	10572,
+	10397,
+	16050,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_BossRoom_ApplicationLifecycle_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_BossRoom_ApplicationLifecycle_CodeGenModule = 
+{
+	"Unity.BossRoom.ApplicationLifecycle.dll",
+	16,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

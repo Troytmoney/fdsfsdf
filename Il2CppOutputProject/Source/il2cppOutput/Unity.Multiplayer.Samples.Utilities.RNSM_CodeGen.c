@@ -1,0 +1,86 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m8D262DA5B315BAFB1678FF0A881485377EA5121C (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m30CA65CDA24038232040EB2B7E9FA9ABF2B63902 (void);
+extern void AutoHide_Start_m8539ADC54A60A83EC49B293E116C97045FE35B7A (void);
+extern void AutoHide_HideAfterSeconds_m5518B8743965A80472E97789CD569774AEE4C9AC (void);
+extern void AutoHide__ctor_m9D0796D47051B5BBA3408A12FA17267BA2238DAA (void);
+extern void U3CHideAfterSecondsU3Ed__2__ctor_m47C0EFE1483B92999FE3279AADED23148E323BA4 (void);
+extern void U3CHideAfterSecondsU3Ed__2_System_IDisposable_Dispose_m563F079C00233B8A8DE21AD5185EAB807D8B6249 (void);
+extern void U3CHideAfterSecondsU3Ed__2_MoveNext_m68138BD0B75CB7800F48F9E080D7C5DE87D09C5B (void);
+extern void U3CHideAfterSecondsU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m978D18E4FE0100DE3FAAC3FF41E9EEFFD2C82427 (void);
+extern void U3CHideAfterSecondsU3Ed__2_System_Collections_IEnumerator_Reset_m38E6BBCB7CC9A7B69E968807B0A7DE2990CF4CB5 (void);
+extern void U3CHideAfterSecondsU3Ed__2_System_Collections_IEnumerator_get_Current_m0E15394E425E006B39E33BCE32FECF26955EF697 (void);
+extern void NetStatsMonitorCustomization_Start_m209F29EF38D690B2FD0198F7C7512781DBB95E04 (void);
+extern void NetStatsMonitorCustomization_Update_m0B9F60FAD040A9FF89308FC01B4E353F16F6747A (void);
+extern void NetStatsMonitorCustomization_AnyTouchDown_m0A5E619611B3AED4169916158635794ECD29BE68 (void);
+extern void NetStatsMonitorCustomization__ctor_m9E4A1C60AF15E5DB5A074227A4A547D948998A56 (void);
+static Il2CppMethodPointer s_methodPointers[15] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m8D262DA5B315BAFB1678FF0A881485377EA5121C,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m30CA65CDA24038232040EB2B7E9FA9ABF2B63902,
+	AutoHide_Start_m8539ADC54A60A83EC49B293E116C97045FE35B7A,
+	AutoHide_HideAfterSeconds_m5518B8743965A80472E97789CD569774AEE4C9AC,
+	AutoHide__ctor_m9D0796D47051B5BBA3408A12FA17267BA2238DAA,
+	U3CHideAfterSecondsU3Ed__2__ctor_m47C0EFE1483B92999FE3279AADED23148E323BA4,
+	U3CHideAfterSecondsU3Ed__2_System_IDisposable_Dispose_m563F079C00233B8A8DE21AD5185EAB807D8B6249,
+	U3CHideAfterSecondsU3Ed__2_MoveNext_m68138BD0B75CB7800F48F9E080D7C5DE87D09C5B,
+	U3CHideAfterSecondsU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m978D18E4FE0100DE3FAAC3FF41E9EEFFD2C82427,
+	U3CHideAfterSecondsU3Ed__2_System_Collections_IEnumerator_Reset_m38E6BBCB7CC9A7B69E968807B0A7DE2990CF4CB5,
+	U3CHideAfterSecondsU3Ed__2_System_Collections_IEnumerator_get_Current_m0E15394E425E006B39E33BCE32FECF26955EF697,
+	NetStatsMonitorCustomization_Start_m209F29EF38D690B2FD0198F7C7512781DBB95E04,
+	NetStatsMonitorCustomization_Update_m0B9F60FAD040A9FF89308FC01B4E353F16F6747A,
+	NetStatsMonitorCustomization_AnyTouchDown_m0A5E619611B3AED4169916158635794ECD29BE68,
+	NetStatsMonitorCustomization__ctor_m9E4A1C60AF15E5DB5A074227A4A547D948998A56,
+};
+static const int32_t s_InvokerIndices[15] = 
+{
+	16088,
+	10572,
+	10572,
+	10397,
+	10572,
+	8316,
+	10572,
+	10247,
+	10397,
+	10572,
+	10397,
+	10572,
+	10572,
+	15946,
+	10572,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Multiplayer_Samples_Utilities_RNSM_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Multiplayer_Samples_Utilities_RNSM_CodeGenModule = 
+{
+	"Unity.Multiplayer.Samples.Utilities.RNSM.dll",
+	15,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
